@@ -5,9 +5,23 @@ body{
 
 #my-nav{
     background-color: #4267B2;
-    height: 42px;
-    margin-bottom: 10px;
+}
 
+#my-nav a{
+    color: white !important;
+}
+
+.search_width{
+    width: 400px !important;
+}
+
+#icon-color span{
+    color: #0D1524;
+    font-size: 20px;
+}
+
+section{
+    padding: 0 !important;
 }
 
 .red, .pink, .orange{
@@ -20,11 +34,11 @@ body{
 
 .pink{
     background-color: pink;
+    margin: 0 10px 0 10px;
 }
 
 .orange{
     background-color: orange;
-
 }
 
 footer{
