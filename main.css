@@ -5,6 +5,9 @@ body{
 
 #my-nav{
     background-color: #4267B2;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 #my-nav a{
@@ -22,10 +25,11 @@ body{
 
 section{
     padding: 0 !important;
+    margin-top: 65px;
 }
 
 .red, .pink, .orange{
-    height: 500px;
+    height: 5000px;
 }
 
 .red{
@@ -42,9 +46,5 @@ section{
 }
 
 footer{
-    background-color: black;
-    height: 42px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
-
-
