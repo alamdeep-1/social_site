@@ -41,12 +41,28 @@ section{
 }
 
 
-.post_section, .adds_section{
-    background-color: white;
-}
-
 .post_section{
     margin-right: 15px;
+}
+
+.panel-body .glyphicon{
+    margin: 0px 4px 0px 10px;
+}
+
+.panel{
+    margin-bottom: 12px;
+}
+
+.text-post{
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.margin-img{
+    margin-bottom: 15px;
+}
+.color a{
+    color: black !important;
 }
 footer{
     margin-top: 20px;
