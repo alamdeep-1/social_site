@@ -28,23 +28,26 @@ section{
     margin-top: 65px;
 }
 
-.red, .pink, .orange{
-    height: 5000px;
+.list_heading{
+    padding: 20px 15px 0px 15px;
 }
 
-.red{
-    background-color: red;
+.list-color a{
+    color: black !important;
 }
 
-.pink{
-    background-color: pink;
-    margin: 0 10px 0 10px;
+.list-color p{
+    color: grey !important;
 }
 
-.orange{
-    background-color: orange;
+
+.post_section, .adds_section{
+    background-color: white;
 }
 
+.post_section{
+    margin-right: 15px;
+}
 footer{
     margin-top: 20px;
 }
