@@ -41,9 +41,23 @@ section{
 }
 
 
-.post_section{
+.post_section {
     margin-right: 15px;
+    height: 663px;
+    overflow: scroll;
 }
+
+.post_section::-webkit-scrollbar{
+    display: none;
+}
+
+.ad_section{
+    height: 100vh;
+    overflow: scroll;
+}
+
+.ad_section::-webkit-scrollbar{
+    display: none;
 
 .panel-body .glyphicon{
     margin: 0px 4px 0px 10px;
