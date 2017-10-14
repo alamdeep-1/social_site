@@ -51,13 +51,22 @@ section{
     display: none;
 }
 
+.sub_comment{
+    margin-top: 10px;
+}
+
+.comment_toolkit span{
+    margin-right: 5px;
+}
+
 .ad_section{
     height: 100vh;
     overflow: scroll;
 }
 
-.ad_section::-webkit-scrollbar{
+.ad_section::-webkit-scrollbar {
     display: none;
+}
 
 .panel-body .glyphicon{
     margin: 0px 4px 0px 10px;
@@ -75,9 +84,11 @@ section{
 .margin-img{
     margin-bottom: 15px;
 }
-.color a{
+
+.colors a{
     color: black !important;
 }
+
 footer{
     margin-top: 20px;
 }
