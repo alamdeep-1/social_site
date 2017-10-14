@@ -24,7 +24,6 @@ body{
 }
 
 section{
-    padding: 0 !important;
     margin-top: 65px;
 }
 
@@ -42,7 +41,6 @@ section{
 
 
 .post_section {
-    margin-right: 15px;
     height: 663px;
     overflow: scroll;
 }
@@ -57,6 +55,24 @@ section{
 
 .comment_toolkit span{
     margin-right: 5px;
+}
+
+.comment_box{
+    width: 100%;
+    border-radius: 20px;
+    height: 32px;
+    color: grey;
+    border: 0px !important;
+}
+
+.comment_box:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.comment_toolkit input{
+    padding-left: 10px;
 }
 
 .ad_section{
