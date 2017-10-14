@@ -23,6 +23,14 @@ body{
     font-size: 20px;
 }
 
+.img_border{
+    margin-right: 10px;
+}
+
+.nav_pro{
+    padding-top: 10px !important;
+}
+
 section{
     margin-top: 65px;
 }

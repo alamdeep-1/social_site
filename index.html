@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="bootstrap/font-awesome-4.7.0/css/font-awesome.css">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -35,8 +41,7 @@
                 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
             </form>
             <ul class="nav navbar-nav navbar-right" id="icon-color">
-                <li><a href="#"><img class="img-circle" src="img1.JPG" alt="DP"></a></li>
-                <li><a href="#">Alamdeep Singh</a></li>
+                <li><a href="#" class="nav_pro"><img class="img-circle img_border" src="img1.JPG" alt="DP">Alamdeep Singh</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
@@ -164,125 +169,106 @@
             </div>
         </section>
         <section class="col-md-3 ad_section">
-            <div>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maiores nobis omnis soluta
-                    tenetur vel velit vero. Alias aliquam dignissimos exercitationem, facilis inventore, libero
-                    praesentium quaerat, quam quibusdam sint veritatis.
+            <div class="panel panel-default">
+                <div class="panel-heading box-margin">Events</div>
+                <div class="panel-body">
+                    <a href=""><span class="glyphicon glyphicon-gift"></span> It's hardik birthday today </a>
                 </div>
-                <div>Architecto blanditiis dignissimos dolore, doloribus est harum iste itaque laboriosam, numquam
-                    obcaecati officiis perspiciatis porro quo rerum sunt suscipit velit veniam vero? Consectetur enim
-                    explicabo fugit hic, sed sit voluptate.
+            </div>
+            <h5>Trending</h5>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#top-trends"><i class="fa fa-line-chart text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#politics"><i class="fa fa-university text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#sports"><i class="fa fa-futbol-o text-muted" aria-hidden="true"></i></a></li>
+                <li><a data-toggle="tab" href="#science-and-technology"><i class="fa fa-flask text-muted" aria-hidden="true"></i></a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="top-trends" class="tab-pane fade in active">
+                    <h3>Top trends</h3>
+                    <div class="list-group box-margin">
+                        <a href="https://timesofindia.indiatimes.com/business/india-business/make-in-india-could-see-45-drop-in-sale-of-chinese-goods-this-diwali-assocham/articleshow/61004810.cms" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Sale of Chinese goods may decline</h4>
+                            <p class="list-group-item-text">Sale of Chinese goods may decline by 40-45% this Diwali: Survey</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Trump's new immigration proposal</h4>
+                            <p class="list-group-item-text">US President Donald Trump has sent a refurbished immigration policy to Congress</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="#" class="list-group-item active">
+                            <h4 class="list-group-item-heading">HC spares 11 the noose in Godhra train case</h4>
+                            <p class="list-group-item-text">The Gujarat HC commuted the death sentence of 11 convicts to life imprisonment in connection with the Godhra train burning case.</p>
+                        </a>
+                    </div>
                 </div>
-                <div>Accusantium dolorum earum iste molestiae nam natus, odit recusandae saepe veniam voluptates!
-                    Accusamus aliquam atque cumque, cupiditate doloremque ea eaque ex expedita ipsam labore nulla
-                    placeat quibusdam, quidem quos rerum.
+                <div id="politics" class="tab-pane fade">
+                    <h3>Politics</h3>
+                    <div class="list-group box-margin">
+                        <a href="https://sg.news.yahoo.com/global-economy-chiefs-told-reform-while-going-good-161845454.html" class="list-group-item active">
+                            <h4 class="list-group-item-heading"> Jim Yong Kim</h4>
+                            <p class="list-group-item-text">Global economy chiefs told to reform while going is good</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="http://thehill.com/blogs/blog-briefing-room/355155-howard-dean-trump-should-put-clinton-foundation-in-charge-of-puerto" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Puerto Rico </h4>
+                            <p class="list-group-item-text">Howard Dean: Put Clinton Foundation in charge of Puerto Rico relief</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="https://www.msn.com/en-in/news/world/us-withdraws-from-unesco-over-anti-israel-bias/ar-AAtlg0P" class="list-group-item active">
+                            <h4 class="list-group-item-heading">UNESCO</h4>
+                            <p class="list-group-item-text">US withdraws from Unesco over 'anti-Israel bias'</p>
+                        </a>
+                    </div>
                 </div>
-                <div>Accusamus asperiores at eius expedita incidunt maiores nisi odio possimus quibusdam reprehenderit!
-                    Ab aperiam architecto atque beatae, delectus dolor dolore doloremque error fuga hic omnis
-                    perspiciatis quae sed totam, voluptates.
+                <div id="sports" class="tab-pane fade">
+                    <h3>Sports</h3>
+                    <div class="list-group box-margin">
+                        <a href="https://www.msn.com/en-in/news/football/india-vs-ghana-fifa-u-17-world-cup-live-football-score/ar-AAtlbXb" class="list-group-item active">
+                            <h4 class="list-group-item-heading">India vs Ghana</h4>
+                            <p class="list-group-item-text">India vs Ghana, FIFA U-17 World Cup, live football score</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="https://thebusbybabe.sbnation.com/2017/10/12/16461702/previewing-liverpool-vs-manchester-united-still-the-best-rivalry-in-england-premier-league" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Liverpool vs. Manchester</h4>
+                            <p class="list-group-item-text">Previewing Liverpool vs. Manchester United: Still the best rivalry in England</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="https://www.msn.com/en-in/sports/cricket/ranji-trophy-2017-how-irfan-celebrated-brother-yusuf-pathan%E2%80%99s-hundred-watch-emotional-video/ar-AAtkcV1" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Irfan pathan</h4>
+                            <p class="list-group-item-text">Ranji Trophy 2017: How Irfan celebrated brother Yusuf Pathan’s hundred, watch emotional video</p>
+                        </a>
+                    </div>
                 </div>
-                <div>Alias animi aperiam architecto at corporis distinctio doloremque ea eos exercitationem hic id ipsa
-                    labore mollitia omnis, porro quam quo quod quos rem repudiandae rerum suscipit ut, velit voluptates
-                    voluptatum!
+                <div id="science-and-technology" class="tab-pane fade">
+                    <h4>science and technology</h4>
+                    <div class="list-group box-margin">
+                        <a href="https://in.finance.yahoo.com/news/reliance-jio-launches-diwali-offer-024818892.html" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Jio</h4>
+                            <p class="list-group-item-text">Reliance Jio launches new Diwali offer; full cashback on every Rs 399 recharge</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="https://www.cnet.com/news/samsung-electronics-ceo-oh-hyun-kwon-announces-retirement/" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Kwon Oh-Hyun</h4>
+                            <p class="list-group-item-text">Samsung Electronics CEO Kwon Oh-Hyun announces retirement</p>
+                        </a>
+                    </div>
+                    <div class="list-group box-margin">
+                        <a href="https://www.nytimes.com/2017/10/12/technology/sheryl-sandberg-facebook-ads.html" class="list-group-item active">
+                            <h4 class="list-group-item-heading">Sheryl Sandberg </h4>
+                            <p class="list-group-item-text">Sheryl Sandberg Blitzes Washington in P.R. Push for Facebook</p>
+                        </a>
+                    </div>
                 </div>
-                <div>Consequuntur enim iusto nemo nesciunt obcaecati. Deleniti, dignissimos dolore doloribus dolorum
-                    eius hic minus tenetur vel. Accusamus animi consequatur consequuntur culpa et exercitationem in
-                    molestiae nemo odio, optio sapiente veniam?
-                </div>
-                <div>Animi, corporis cupiditate earum enim esse, est, facilis fugiat ipsa nostrum odio quis quo quos
-                    repellat similique suscipit! Assumenda atque beatae esse laudantium nisi odio officia porro quas
-                    velit! Vel!
-                </div>
-                <div>At autem cumque doloribus earum et ex mollitia, necessitatibus, officia porro quia quis recusandae
-                    vel vero vitae voluptatum! Accusamus eligendi iusto non quasi sed! Alias aperiam debitis distinctio
-                    odit repellat?
-                </div>
-                <div>Ad itaque libero nulla, quae quam quos repellat voluptas. A ad, aspernatur dolor ea eos, est fugit
-                    iste nulla perspiciatis sit soluta tempore tenetur, vitae. Saepe, sit, ullam? Cumque, rem.
-                </div>
-                <div>Alias amet architecto at cumque excepturi incidunt minima nam nemo officiis quibusdam. Dolores ea
-                    fugiat natus quasi. Adipisci, blanditiis commodi corporis deserunt facilis, fuga non quis quod,
-                    recusandae sunt voluptatibus.
-                </div>
-                <div>Accusantium animi ex exercitationem nobis quo sed tenetur ut veniam? Aliquid aspernatur at autem
-                    dolores error eum eveniet laborum maiores minus nihil nulla, repudiandae rerum, sed tenetur totam
-                    ullam unde!
-                </div>
-                <div>Accusantium adipisci animi architecto aut consectetur distinctio dolorem, eligendi eum facere
-                    impedit in ipsam iste minima minus molestias, nam natus odio pariatur qui quo sed sint ut veniam
-                    veritatis voluptas!
-                </div>
-                <div>Consectetur dignissimos ex mollitia quisquam veniam. Ad architecto aut beatae blanditiis dolorum
-                    eos eveniet ex exercitationem iste, maiores minus nobis nostrum possimus quia quo sint tempora
-                    temporibus. Fugit, mollitia, quibusdam.
-                </div>
-                <div>Aspernatur culpa dolore dolores eos eveniet excepturi expedita fugiat inventore, laborum nisi
-                    perferendis quaerat quis rerum voluptate voluptatibus! Ab architecto delectus fugiat laboriosam
-                    magni mollitia recusandae similique, suscipit tenetur ut.
-                </div>
-                <div>Et explicabo, facilis id inventore maiores minima, modi molestiae nobis pariatur perspiciatis,
-                    possimus quam quis temporibus voluptate voluptatibus? Aliquam autem consectetur deserunt distinctio
-                    facere fuga fugiat labore modi odit praesentium.
-                </div>
-                <div>Accusamus, ad aliquid animi aspernatur aut cumque deleniti eligendi ex fugiat incidunt ipsam ipsum
-                    iste nam nihil non perferendis quas quasi quisquam rem repellendus rerum sint sunt ut vel
-                    voluptatem!
-                </div>
-                <div>Amet aut distinctio fuga id, iure non optio quia quibusdam repudiandae saepe veritatis voluptas!
-                    Aperiam, commodi debitis deserunt dignissimos distinctio ex inventore nam optio, porro quas quia
-                    ratione sed voluptatem.
-                </div>
-                <div>Adipisci assumenda autem deleniti, eius eum, fugiat id nulla numquam possimus, quae quaerat quo
-                    reiciendis ullam? Architecto asperiores commodi delectus eligendi, ipsum nihil nostrum, nulla
-                    quisquam repellendus, similique soluta tenetur.
-                </div>
-                <div>Accusamus amet, aperiam aut blanditiis consectetur error magnam minima molestias, neque possimus
-                    quae, quam quidem repellat tempora tenetur ullam voluptatem! A deleniti excepturi molestiae nobis
-                    nostrum quo quos similique totam.
-                </div>
-                <div>Aliquam aut enim fuga id, iure laborum minima, odio optio repudiandae suscipit tenetur voluptate?
-                    Alias aperiam consequuntur dolor eaque illum ipsam, labore nam optio perferendis ratione repellat,
-                    repudiandae veniam veritatis.
-                </div>
-                <div>A ad autem corporis, delectus dolorem ea eius illo iure libero, minus mollitia nam natus nemo
-                    obcaecati, perspiciatis quasi quis sed sint suscipit tenetur ut vel vitae! Ab, incidunt, nulla.
-                </div>
-                <div>Aperiam asperiores earum facilis id incidunt non pariatur. Eos eveniet laborum natus nobis possimus
-                    quia quidem tempora voluptatibus? Amet aspernatur impedit magnam modi necessitatibus nobis optio
-                    quisquam reiciendis saepe veritatis.
-                </div>
-                <div>Architecto debitis eaque, est eveniet illo in libero minima nostrum omnis perferendis possimus quae
-                    quo sed, veniam voluptates? Accusantium at consequuntur expedita impedit ipsum iste natus nostrum
-                    qui quo rerum!
-                </div>
-                <div>Cumque doloribus excepturi fugit illo illum incidunt inventore ipsa iusto minima minus modi
-                    necessitatibus, officia praesentium quae quisquam repudiandae sed sunt temporibus vel voluptates.
-                    Atque consequuntur cupiditate eos mollitia possimus.
-                </div>
-                <div>A accusamus corporis, doloremque earum ipsam itaque numquam omnis quia quidem quisquam, recusandae
-                    repellat repudiandae sunt? At autem deserunt doloribus, ducimus ea est inventore labore laborum,
-                    maxime modi, quo rem?
-                </div>
-                <div>Ab aliquam architecto assumenda dolor dolore incidunt laudantium nobis, porro, quam qui quidem
-                    saepe. Ab, accusantium alias atque consequuntur corporis deleniti dignissimos, itaque nisi officia
-                    rem repellat, soluta ut voluptate.
-                </div>
-                <div>Accusantium amet aspernatur aut consectetur consequatur, cumque dicta dolor eos est, ex excepturi
-                    facilis harum iure iusto laboriosam minima minus molestias officia possimus quae quia quod
-                    reprehenderit soluta voluptate voluptatem.
-                </div>
-                <div>Asperiores corporis est iste nam odit officia perspiciatis quaerat sit totam ullam! Accusantium
-                    beatae blanditiis consequatur dolores, doloribus enim facere minima, natus nemo quae tempore
-                    temporibus ullam vitae voluptates voluptatibus!
-                </div>
-                <div>Animi assumenda autem explicabo, in labore magnam numquam qui quisquam tempore temporibus! Aperiam
-                    assumenda beatae consequuntur doloribus esse, fugiat harum illo laborum minima natus neque optio
-                    perspiciatis quisquam. Iusto, veniam.
-                </div>
-                <div>Ea id laboriosam suscipit ut? Aliquid architecto corporis dicta dolore dolorem, eligendi facilis
-                    ipsum itaque iusto minus natus necessitatibus numquam perspiciatis porro quae quia quod soluta
-                    suscipit totam unde veritatis!
-                </div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad doloremque id iste maiores maxime odit sed ut vero. Aliquam aperiam, cum delectus distinctio facilis ipsa laudantium molestiae odit similique temporibus?</div>
+            </div>
         </section>
     </article>
     <footer class="row">
