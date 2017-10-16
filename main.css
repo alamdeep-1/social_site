@@ -23,6 +23,21 @@ body{
     font-size: 20px;
 }
 
+#icon-color .glyphicon {
+    color: white;
+}
+
+.edit-badge{
+    position: relative;
+    bottom: 12px;
+    right: 6px;
+    background-color: #f43734;
+    color: white !important;
+    font-size: 12px !important;
+    border-radius: 25%;
+    padding: 3px 4px 3px 4px;
+}
+
 .img_border{
     margin-right: 10px;
 }
@@ -47,10 +62,31 @@ section{
     color: grey !important;
 }
 
-
 .post_section {
     height: 663px;
     overflow: scroll;
+}
+
+.body_height{
+    height: 100px;
+}
+
+.gift_color{
+    color: orange;
+}
+
+.col2-top-box-input{
+    position: relative;
+    right: -550px;
+    bottom: 1px;
+    color: white;
+    background-color: #4267b2;
+    max-width: 70px;
+    min-width: 70px;
+    border-radius: 10%;
+    border: none;
+    box-shadow: none;
+    padding: 3px 0 3px 0;
 }
 
 .post_section::-webkit-scrollbar{
