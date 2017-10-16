@@ -62,6 +62,10 @@ section{
     color: grey !important;
 }
 
+.ls-footer{
+    padding: 20px 0px 0px 15px;
+}
+
 .post_section {
     height: 663px;
     overflow: scroll;
